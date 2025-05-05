@@ -9,7 +9,8 @@ function Projectcard({nome_projeto, descricao, imagem_src, link_projeto} ){
                         <p>{descricao}</p>
                             <div className="conteudobotao">
                                 <p> Quer <strong>conhecer</strong> o <strong>Projeto?</strong> <strong>Clique</strong> em <strong>'Ver Projeto' </strong> </p>
-                                <button> <a href={link_projeto} target="blank">Ver Projeto</a></button>
+                                <button> <Link to={link_projeto}> Ver Projeto</Link></button>
+                                
                             </div>
                     </div>
                     <div className="imagem">
@@ -32,7 +33,7 @@ function Projectcard({nome_projeto, descricao, imagem_src, link_projeto} ){
                         <p>{descricao}</p>
                             <div className="conteudobotao">
                                 <p> Quer <strong>conhecer</strong> o <strong>Projeto?</strong> <strong>Clique</strong> em <strong>'Ver Projeto' </strong> </p>
-                                <button><a href={link_projeto} target="blank">Ver Projeto</a></button>
+                                <button> <Link to={link_projeto}> Ver Projeto</Link></button>
                             </div>
                     </div>
                 </div>

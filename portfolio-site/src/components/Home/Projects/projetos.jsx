@@ -15,7 +15,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 1"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
                 {/*Projeto 2*/}
@@ -23,7 +23,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 2"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
                 {/*Projeto 3*/}
@@ -31,7 +31,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 3"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
             </div>
@@ -42,7 +42,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 2"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
                 {/*Projeto 2*/}
@@ -50,7 +50,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 1"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
                 {/*Projeto 3*/}
@@ -58,7 +58,7 @@ function Projectsgeral(){
                 nome_projeto= "Projeto 2"
                 descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                 imagem_src= "/imagem/calculadora.png"
-                link_projeto="./curriculo"
+                link_projeto="/curriculo"
                 />
 
             </div>
@@ -70,7 +70,7 @@ function Projectsgeral(){
                  nome_projeto= "Projeto 1"
                  descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                  imagem_src= "/imagem/calculadora.png"
-                 link_projeto="./curriculo"
+                 link_projeto="/curriculo"
                  />
  
                  {/*Projeto 2*/}
@@ -78,7 +78,7 @@ function Projectsgeral(){
                  nome_projeto= "Projeto 2"
                  descricao= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic sapiente deleniti, praesentium vero excepturi ad esse similique autem tempora voluptate fugiat illo. Recusandae soluta accusamus neque provident quam ea?"
                  imagem_src= "/imagem/calculadora.png"
-                 link_projeto="./curriculo"
+                 link_projeto="/curriculo"
                  />
             </div>
         </div>
