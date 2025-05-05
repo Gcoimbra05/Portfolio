@@ -157,13 +157,17 @@ ul{
     max-height: 0;
     opacity: 0;
     transition: max-heigth 0.3s linear, opacity 0.3s linear;
+    pointer-events: none;
 }
 
-#spanprojects:hover + #project-list{
+#projects:hover #project-list{
     max-height: 300px;
     opacity: 1;
     box-shadow: 0px 5px 5px 2px rgb(0, 0, 0, 0.3);
+    pointer-events: auto;
 }
+
+
 
 li{
     cursor: pointer;

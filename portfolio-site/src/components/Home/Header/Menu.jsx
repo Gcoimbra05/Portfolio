@@ -8,11 +8,11 @@ function Top(){
         
         if (detectscroll > 200) {
             menu.style.transform= "translatey(-100%)"
-           
-
+        
         } else {
              menu.style.transform= "translatey(0%)"
         }
+
     })
 
     const blackwhite = () =>{
@@ -38,9 +38,8 @@ function Top(){
             <div id="nome"> G. Coimbra </div>
 
             <div className="components" id="sobre"> <a href="#complemento">Sobre</a></div>
-            <div className="components" id="projets"> 
-                <span id="spanprojects">Projetos
-                    <span id="seta">▼</span>
+            <div className="components" id="projects">
+                <span id="spanprojects">Projetos<span id="seta">▼</span>
                 </span>
                 <ul id="project-list" className="lista">
                     <li><a href="#easy">Easy</a></li>
