@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 import "./curriculo.css"
+
 
 function Curriculum(){
     return(
@@ -9,7 +11,8 @@ function Curriculum(){
             </div>
             <div id="frasevideo">
                 <h1>Ops, esta pagina ainda está em produção</h1>
-                <h1><a href="" onClick={()=> window.close()}>Click aqui</a> para continuar navegando pelo meu portfólio</h1>
+                <h1><Link to={"/"}>Click aqui</Link> para continuar navegando pelo meu portfólio</h1>
+                
             </div>
             </div>
         </>
