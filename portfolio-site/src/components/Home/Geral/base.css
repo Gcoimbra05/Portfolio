@@ -1,0 +1,49 @@
+:root{
+    --cor-fundo: #ffffff;
+    --cor-texto: rgb(0, 0, 0);
+    --fonte-texto:'poppins', sans-serif;
+    --cor-borda: solid rgb(0, 0, 0);
+
+    --cor-fundo-botao: black;
+    --cor-fundo-botao-hover: #ffffff;
+    --cor-texto-botao:  #ffffff;
+    --cor-sombra-foto: 15px 15px 20px rgba(0, 0, 0, 0.3);
+
+    --cor-borda-projeto: solid rgb(169, 169, 169);
+    --cor-fundo-scrolltop: rgb(186, 186, 186);
+
+    --cor-rodape: rgb(220, 220, 220);
+    --cor-github: #333;
+    }
+
+.dark-mode{
+    --cor-fundo: #000000;
+    --cor-texto: rgb(255, 255, 255);
+    --fonte-texto:'poppins', sans-serif;
+    --cor-borda: solid rgb(255, 255, 255);
+
+    --cor-fundo-botao: rgb(255, 255, 255);
+    --cor-fundo-botao-hover: #000000;
+    --cor-texto-botao:  #000000;
+    --cor-sombra-foto: 5px 5px 20px rgba(255, 255, 255, 0.3);
+
+    --cor-borda-projeto: solid rgb(237, 237, 237);
+    --cor-fundo-scrolltop: rgb(104, 104, 104);
+
+    --cor-rodape: rgb(45, 45, 45);
+    --cor-github: #b0b0b0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

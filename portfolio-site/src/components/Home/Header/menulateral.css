@@ -1,0 +1,128 @@
+#menulateral{
+    height: 40px;
+    width: 40px;
+    font-size: 45px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0;
+    border-radius: 0px 0px 10px 0px;
+    border: 1px var(--cor-borda);
+    opacity: 80%;
+    transform: translateX(-100%);
+    transition: transform 0.35s linear;
+    cursor: pointer;
+}
+
+#listalateral{
+    height: 100vh;
+    width: 275px;
+    margin: 0;
+    background-color: var(--cor-fundo);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 10px 0px;
+    border: 1px var(--cor-borda);
+    transform: translateX(-100%);
+    transition: transform 0.35s linear;
+}
+
+#listalateral h2{
+    font-size: 30px;
+    margin: 10px;
+    color: var(--cor-texto);
+}
+
+#listalateral-menu{
+    width: 275px;
+    height: 500px;
+    border-top: 1px var(--cor-borda);
+}
+
+#listalateral-menu p{
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 237px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+#listalateral-menu p:hover{
+    transform: scale(1.05);
+    background-color:  rgb(176, 174, 174);
+}
+
+#listalateral-menu a{
+    text-decoration: none;
+    display: block;
+}
+
+.seta1{
+    font-size: 30px;
+}
+
+#projetolista2{
+    width: 245px;
+    border-radius: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-left: 1px var(--cor-borda);
+    background-color: var(--cor-fundo);;
+    padding-left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 0px;
+    transition: 0.2s linear;
+}
+
+#projetolista2 li{
+    display: flex;
+}
+
+#lista-tema{
+    width: 245px;
+    border-radius: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-left: 1px var(--cor-borda);
+    background-color: var(--cor-fundo);;
+    padding-left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 0px;
+    transition: 0.2s linear;
+}
+
+.descelistas{
+    opacity: 1 !important;
+    max-height: 300px !important;
+    pointer-events: auto !important;
+}
+
+#lista-tema li{
+    display: flex;
+}
+
+.descertech{
+    margin-top: 120px !important;
+}
+
+.lateral{
+    transform: translateX(0%) !important;
+}
+
+.clickvolta{
+    transform: translateX(276px) !important;
+}

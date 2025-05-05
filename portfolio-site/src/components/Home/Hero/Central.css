@@ -1,0 +1,106 @@
+#page1{
+    width: 100vw;
+    height: 692px;
+    background-color: var(--cor-fundo);
+    display: flex;
+    border-bottom: 2px var(--cor-borda);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.apresentacao{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.apresentacao h1{
+    align-self: center;
+    position: absolute;
+    margin: 0;
+    top: 75px;
+    font-size: 41px;
+}
+
+.apresentacao h2{
+    font-size: 28px;
+}
+
+.apresentacao p{
+    font-size: 23px;
+}
+
+#icons{
+    display: flex;
+}
+
+.icones{
+    margin-left: 10px;
+    font-size: 26px;
+    transition: 0.3s ease;
+}
+
+.icones:hover{
+    transform: scale(1.25);
+}
+
+#first-icon{
+    font-size: 26px;
+    color: #0A66C2;
+}
+
+#wpp{
+    color: #25D366;
+}
+
+#email{
+    color: #4285F4;
+}
+
+#git{
+    color: var(--cor-github);
+}
+
+#imagem1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    scroll-margin-top: 120px;
+}
+
+#foto1{
+    border-radius: 20px;
+    box-shadow:var(--cor-sombra-foto);
+}
+
+#iconescroll{
+    height: 75px;
+    width: 75px;
+    background-color: var(--cor-fundo-scrolltop);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 34px;
+    right: 23px;
+    opacity: 0;
+    transition: opacity 0.2s linear, transform 0.3s ease;
+}
+
+#iconescroll i{
+    font-size: 45px;
+    color: var(--cor-texto);
+}
+
+#iconescroll:hover{
+    transform: scale(1.1);
+}

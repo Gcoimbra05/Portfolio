@@ -1,0 +1,98 @@
+#page{
+    background-color:var(--cor-fundo);
+    width: 100vw;
+    height: 575px;
+    display: flex;
+    border-bottom: 2px var(--cor-borda);
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.text2{
+    height: 490px;
+    width: 40%;
+}
+
+#quemsou{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#quemsou h1{
+    font-size: 115px;
+    margin: 0px;
+}
+
+#quemsou h2{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#quemsou p{
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+#complemento{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    scroll-margin-top: 95px;
+}
+
+#complemento h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#complemento p{
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.duasp{
+    margin-bottom: 0px;
+}
+
+#ultimap{
+    margin-bottom: 90px;
+}
+
+#curriculobotao{
+    display: flex;
+    flex-direction: row;
+    width: 449px;
+    position: absolute;
+    bottom: 0px;
+    bottom: 25px;
+    right: 10px;
+    align-items: center;
+}
+
+#curriculobotao p{
+    font-size: 11px;
+    padding-right: 20px;
+}
+
+#curriculobotao button{
+    width: 175px;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: var(--cor-fundo-botao);
+    color: var(--cor-texto-botao);
+    transition: 0.25s ease;
+}
+
+#curriculobotao button:hover{
+    background-color:var(--cor-fundo-botao-hover);
+    color: var(--cor-texto);
+}
