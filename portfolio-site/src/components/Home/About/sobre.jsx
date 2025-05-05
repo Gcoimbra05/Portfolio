@@ -1,4 +1,5 @@
 import "./sobre.css"
+import { Link } from "react-router-dom"
 
 function About(){
     
@@ -24,7 +25,8 @@ return(
                 </p>
             <div id="curriculobotao">
                 <p> Quer <strong>conhecer</strong> meu <strong>currículo?</strong> <strong>Clique</strong> em <strong>'Saiba mais'</strong> para visualizar a versão <strong>interativa </strong> ou fazer o <strong>download em PDF</strong></p>
-                <a href="./curriculo" target="blank"><button>Saiba Mais</button></a>
+                <a href="/curriculo" target="blank"><button>Saiba Mais</button></a>
+                {/*<Link to={"./curriculo"}><button>Saiba Mais</button></Link> */}
             </div>
             </div>
 
