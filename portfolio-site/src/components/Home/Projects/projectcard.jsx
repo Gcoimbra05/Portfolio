@@ -1,4 +1,5 @@
 import "./projetos.css"
+import { Link } from "react-router-dom";
 
 function Projectcard({nome_projeto, descricao, imagem_src, link_projeto} ){
     return(
