@@ -1,6 +1,6 @@
 #menu {
     width: 100vw;
-    height: 50px;
+    height: 7.5%;
     background-color: var(--cor-fundo);
     display: flex;
     border-bottom: 1px var(--cor-borda);
