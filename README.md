@@ -40,8 +40,7 @@ Atualmente estou cursando **Ciência da Computação**, com a meta clara de migr
 
 ## 📎 Acesso ao Projeto
 
-- 🔗 Acesse o portfólio online: [Seu link do Vercel aqui]
-- 📂 Código-fonte completo: [Seu link do GitHub aqui]
+- 🔗 Acesse o portfólio online: [Link](https://portfolio-sigma-taupe-67.vercel.app)
 
 ---
 
